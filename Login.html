@@ -1,0 +1,43 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+<title>WWW.BUKUA.COM.tz</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<script>
+function ValidateForm(){
+var name = document.MyForm.name.value;
+var password = document.MyForm.password.value;
+ 
+ if(name==null || name==""){
+ alert("please enter name");
+ return false;}
+ else if (password.length < 9){
+ alert("password must be at least 6 characters");
+ return false;
+
+ 
+ }
+ }
+ </script>
+ <body><center>
+ <h1>BUKUA.COM</h1>
+ <fieldset>
+ <form action="ValidateForm()">
+ Name:<br/><input type="text" name="name" required> <br/><br/><br/>
+ password:<br/><input type="text" name="password" name="password" required<br/><br/><br/>
+ <input type="submit" value="LOG IN">
+ 
+ </fieldset><br/><br/>
+ <input type="button" value="New registration"/>
+ 
+ </form>
+ </center>
+ </body>
+ </html>
+
+
+
+
+<body>
+

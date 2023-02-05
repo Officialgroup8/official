@@ -1,0 +1,38 @@
+body
+{
+	background-color:green;
+	padding:30px;
+	color:white;
+}
+
+h1{
+font-family:MV boli;
+background-color: silver;
+font-size:40px;
+padding:10px;
+}
+h2{
+font-family:MV boli;
+}
+
+li{
+	font-family:cooper black;
+	font-size:30px;
+	color:#CC6600;
+}
+
+p{
+font-size:30px;
+}
+
+a{
+font-family:MV boli;
+color:white;
+}
+
+button{
+background-color:green;
+}
+b{
+	font-family:Mv boli;
+}
